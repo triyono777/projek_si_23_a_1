@@ -31,7 +31,7 @@ class _LoginScreenState extends State<LoginScreen> {
           TextField(
             obscureText: statusPassword,
             decoration: InputDecoration(
-              labelText: 'Password',
+              labelText: 'Password edit',
               hintText: 'Enter your password',
               prefixIcon: Icon(Icons.lock),
               suffixIcon: IconButton(
