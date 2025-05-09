@@ -12,7 +12,9 @@ class _LoginScreenState extends State<LoginScreen> {
   bool statusWarna = true;
 
   tampilPassword() {
-    statusPassword = !statusPassword;
+    setState(() {
+      statusPassword = !statusPassword;
+    });
   }
 
   gantiWarna() {
